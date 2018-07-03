@@ -139,6 +139,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 %filter_requires_in varnish
 %filter_requires_in write_gcm
 %filter_requires_in java
+%filter_requires_in python
 %filter_setup
 %endif
 
